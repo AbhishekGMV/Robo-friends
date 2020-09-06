@@ -10,7 +10,7 @@ export default function Signin(props) {
         <>
             {mail.length ? alert("logged in as: " + mail): null}
             <GoogleLogin
-                clientId="668812254509-98gvjo7f4aadvqeh1uiottqrqrsec4bv.apps.googleusercontent.com"
+                clientId=`<>YOUR CLIENT ID</>`
                 buttonText="Login"
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle}
